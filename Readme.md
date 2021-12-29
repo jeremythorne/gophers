@@ -1,4 +1,4 @@
-a little demo in go using the ebiten game engine
+a little demo in [go](https://go.dev) using the [ebiten](https://ebiten.org/) game engine
 
 vaguely follows my memory of how flocking algorithms work. Every so often each
 gopher picks a new target point and accelerates towards that. New target points
@@ -9,3 +9,5 @@ the flock is from the centre of the screen. A simple proportional,
 differential, integral control algorithm is used to set the acceleration. The
 current weights are underdamped so the gophers bounce back and forth a little
 (ringing) before reaching the target. 
+
+![gophers](gophers.png)
